@@ -53,14 +53,18 @@ a:hover {
   color: #ca510d;
 }
 
-.warning-button {
+.warning-button, .cta-button {
   background-color: orange;
   color: #ffffff;
   padding: 8px 12px;
 }
 
-.warning-button:hover {
+.warning-button:hover, .cta-button:hover {
   background-color: #ffb733;
+}
+
+.cta-button {
+  font-weight: bold;
 }
 
 #header {
