@@ -1,3 +1,19 @@
+@mixin blue-beans {
+  @if $brand == blue-beans {
+    @content;
+  }
+}
+@mixin rogers-rovers {
+  @if $brand == rogers-rovers {
+    @content;
+  }
+}
+@mixin pastry-pizza {
+  @if $brand == pastry-pizza {
+    @content;
+  }
+}
+
 @mixin tiny-screen() {
   @media only screen and (max-width: 320px) {
     @content;
