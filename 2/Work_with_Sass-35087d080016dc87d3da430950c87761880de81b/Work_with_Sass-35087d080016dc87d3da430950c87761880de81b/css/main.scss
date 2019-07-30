@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(214, 243, 233);
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+    .inner {
+        background-color: rgb(0, 255, 200);
+        padding: 1em;
+        border-radius: 10px;
+        width: 250px;
+        clip-path: circle(10% at 90% 20%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            clip-path: circle(75%);
+            background: rgb(29, 152, 252);
+        }
+
+        span {
+            float: right;
+            color: #fff;
+            font-weight: bold;
+            transition: color .5s;
+            position: relative;
+            margin: 5% 4% 0 0;
+        }
+
+        &:hover span {
+            color: rgba(255, 255, 255, 0);
+        } 
+
+        h1 {
+            color: #fff;
+            margin: 0;
+        }
+
+        p {
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: .8rem;
+        }
+    }
+
+
