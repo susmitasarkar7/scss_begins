@@ -23,7 +23,7 @@ $font-sizes: (tiny: 8px, small: 11px, medium: 13px, large: 18px);
 } 
 
 $j: 8;
-@while $j => 2 {
+@while $j >= 2 {
   .picture-#{$j} {
     width: $j * 10%;
   }
@@ -159,6 +159,7 @@ a {
 
       &:hover {
         background-color: #efefef;
+        color: $theme-color;
       }
     }
   }

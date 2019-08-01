@@ -43,11 +43,11 @@
 }
 
 @mixin warning {
-  background-color: orange;
+  background-color: $warning-button-background-color;
   color: $menu-item-color;
 
   &:hover {
-    background-color: lighten(orange, 10%);
+    background-color: lighten($warning-button-background-color, 10%);
   }
 }
 

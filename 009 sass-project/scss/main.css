@@ -52,20 +52,20 @@
   font-size: 18px;
 }
 
-.picture-2 {
-  width: 20%;
-}
-
-.picture-4 {
-  width: 40%;
+.picture-8 {
+  width: 80%;
 }
 
 .picture-6 {
   width: 60%;
 }
 
-.picture-8 {
-  width: 80%;
+.picture-4 {
+  width: 40%;
+}
+
+.picture-2 {
+  width: 20%;
 }
 
 a {
@@ -123,13 +123,13 @@ a:hover {
 }
 
 .warning-button, .cta-button, .super-cta-button {
-  background-color: orange;
+  background-color: #ff6600;
   color: #ffffff;
   padding: 8px 12px;
 }
 
 .warning-button:hover, .cta-button:hover, .super-cta-button:hover {
-  background-color: #ffb733;
+  background-color: #ff8533;
 }
 
 .cta-button, .super-cta-button {
@@ -200,6 +200,7 @@ a:hover {
 
 #main #sidebar li:hover {
   background-color: #efefef;
+  color: #42424a;
 }
 
 #footer {
